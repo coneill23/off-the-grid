@@ -1,8 +1,4 @@
 /* styles.css */
-
-* {
-	font-family: Arial;
-}
 html{
 	width: 100%;
 	height: 100%;
@@ -13,6 +9,8 @@ body{
 	color: whitesmoke;
 	font-size: 5rem;
 	overflow: hidden;
+	transition-property: transform;
+	transition-duration: 3s;
 
 	background: url("../img/flames.gif");
 	background-repeat: no-repeat;
