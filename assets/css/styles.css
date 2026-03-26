@@ -3,12 +3,21 @@
 * {
 	font-family: Arial;
 }
+html{
+	width: 100%;
+	height: 100%;
+}
 body{
 	margin: 1rem;
 	background-color: black;
 	color: whitesmoke;
 	font-size: 5rem;
 	overflow: hidden;
+
+	background: url("../img/dandelion1.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
 }
 .grid-container {
 	display:grid;
@@ -18,5 +27,5 @@ body{
 }
 .last{
 	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb (220, 200, 180);
+	border-bottom: 2px solid rgb(220, 200, 180);
 }
