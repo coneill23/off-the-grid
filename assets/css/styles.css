@@ -7,12 +7,12 @@ body{
 	margin: 1rem;
 	background-color: black;
 	color: whitesmoke;
-	font-size: 5rem;
+	font-size: 4rem;
 	overflow: hidden;
 	transition-property: transform;
 	transition-duration: 3s;
 
-	background: url("../img/flames.gif");
+	background: url("../img/dandelion1.gif");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover; 
