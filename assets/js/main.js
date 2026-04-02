@@ -22,14 +22,13 @@ function randomize() {
             translateX = randomNumber(0, 80);
             translateY = randomNumber(0, 80);
         }
-    div.style.transform = 
-    `scale (${scale})
+    div.style.transform =`scale(${scale})
     translate(${translateX}%, ${translateY}%)
-    rotate (${rotate}deg)`;
+    rotate(${rotate}deg)`;
 });
 
 }
-//randomize();
+
 document.addEventListener ("click", randomize);
 
 
